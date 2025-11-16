@@ -140,36 +140,33 @@
 </section>
 
 
+<!-- CONTACT FORM -->
 <section id="contact" class="contact">
   <div class="container glass-card">
     <h2 data-aos="fade-left">Contact Us</h2>
-    <form action="https://formsubmit.co/prepre316@gmail.com" method="POST">
 
-    <!-- SEND TO OTHER EMAILS -->
-    <input type="hidden" name="_cc" value="olawaletubi@yahoo.com,sadetubi1978@gmail.com">
+    <form action="https://formsubmit.co/prepre316@gmail.com" method="POST" class="booking-form" data-aos="fade-up">
 
-    <!-- TURN OFF CAPTCHA -->
-    <input type="hidden" name="_captcha" value="false">
+      <!-- Send copies to other emails -->
+      <input type="hidden" name="_cc" value="olawaletubi@yahoo.com,sadetubi1978@gmail.com">
 
-    <!-- REDIRECT TO THANKYOU.HTML -->
-    <input type="hidden" name="_next" value="thankyou.html">
+      <!-- Turn off captcha -->
+      <input type="hidden" name="_captcha" value="false">
 
-    <!-- EMAIL TABLE FORMAT -->
-    <input type="hidden" name="_template" value="table">
+      <!-- Redirect to thank you page -->
+      <input type="hidden" name="_next" value="thankyou.html">
 
-    <!-- USER INPUTS -->
-    <label>Name:</label>
-    <input type="text" name="name" required>
+      <!-- Table format for email -->
+      <input type="hidden" name="_template" value="table">
 
-    <label>Email:</label>
-    <input type="email" name="email" required>
+      <!-- Form fields -->
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
 
-    <label>Message:</label>
-    <textarea name="message" required></textarea>
-
-    <button type="submit">Send Message</button>
-</form>
-
+      <button type="submit" class="btn neon-btn">Send Message</button>
+    </form>
 
     <div class="contact-info" data-aos="fade-right">
       <p>📞 Phone: 2366620302</p>
@@ -180,9 +177,11 @@
   </div>
 </section>
 
+
 <footer><p>© 2025 Divine Cleaning Services. All rights reserved.</p></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
+
